@@ -1,3 +1,3 @@
-import $ from "jquery";
-import mainjs from "./modules/Main";
-import indexjs from "./modules/Index";
+var $ = require("jquery");
+var MainJs = require("./modules/Main");
+var IndexJs = require("./modules/Index");

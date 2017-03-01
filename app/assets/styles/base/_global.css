@@ -48,13 +48,15 @@ h1 {
 
 .squares {
     width: 100%;
-    background: url(../../assets/images/polish-art.jpg) center repeat;
     color: white;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 70px;
+    &.lazyloaded {
+      background: url(../../assets/images/polish-art.jpg) center repeat;
+    }
     a {
         color: white;
         text-decoration: none;
@@ -151,11 +153,13 @@ h1 {
 .contact {
     position: relative;
     width: 100%;
-    background: url(../../assets/images/orange-sparkle.jpg) center no-repeat;
-    background-size: cover;
     padding: 80px 0;
     color: $off-white;
     text-align: center;
+    &.lazyloaded {
+      background: url(../../assets/images/orange-sparkle.jpg) center no-repeat;
+      background-size: cover;
+    }
 }
 
 .contact-box {
@@ -249,7 +253,7 @@ form {
 }
 
 .services {
-    background: url(../../../assets/images/polish-wallpaper.jpg) ;
+  background: url(../../../assets/images/polish-wallpaper.jpg) ;
     width: 100%;
     padding: 60px 0;
 }
