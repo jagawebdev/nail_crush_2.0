@@ -4,12 +4,20 @@
   "dependencies": {
     "angular": "^1.6.2",
     "angular-route": "^1.6.2",
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "normalize.css": "^5.0.0"
   },
   "devDependencies": {
+    "autoprefixer": "^6.7.6",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
-    "gulp-watch": "^4.3.11"
+    "gulp-postcss": "^6.3.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-hexrgba": "^0.2.1",
+    "postcss-import": "^9.1.0",
+    "postcss-mixins": "^5.4.1",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^3.0.0",
+    "webpack": "^2.2.1"
   }
 }
